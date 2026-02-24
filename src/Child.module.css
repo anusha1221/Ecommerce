@@ -1,0 +1,19 @@
+  .cardStyle1  {    
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 2px;
+        background-color: white;
+    }
+     .cardStyle2 {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 2px;
+        background-color: lightyellow;   
+    }
+  .containerStyle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
