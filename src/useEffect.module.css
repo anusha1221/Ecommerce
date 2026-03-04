@@ -1,0 +1,43 @@
+/* Product list styles */
+.categories {
+  margin-bottom: 1.5rem;
+}
+.categories button {
+  margin: 0 0.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f9f9f9;
+  cursor: pointer;
+  transition: background 150ms, color 150ms;
+}
+.categories button:hover {
+  background: #eaeaea;
+}
+.categories button.active {
+  background: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.productList {
+  display: grid;
+  gap: 1rem;
+}
+.productCard {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: left;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productCard h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+.productCard p {
+  margin: 0.25rem 0;
+}

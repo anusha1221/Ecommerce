@@ -14,6 +14,9 @@ import StarRating from './StarRating'
 import Accordian from './Accordian'
 import Parent from './Parent'
 import ParentLikeDislike from './ParentLikeDislike'
+import UseEffect from './UseEffect'
+import ScrollToSection from './ScrollToTopExample'
+import FileUpload from './FileUpload'
 function App() {
 
   return (
@@ -33,6 +36,10 @@ function App() {
       <Accordian />
       <Parent />
       <ParentLikeDislike />
+      <UseEffect />
+      <ScrollToSection />
+      <FileUpload />
+      
     </>
   )
 }
