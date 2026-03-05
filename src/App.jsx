@@ -17,6 +17,7 @@ import ParentLikeDislike from './ParentLikeDislike'
 import UseEffect from './UseEffect'
 import ScrollToSection from './ScrollToTopExample'
 import FileUpload from './FileUpload'
+import CartBilling from './useReducer'
 function App() {
 
   return (
@@ -39,6 +40,7 @@ function App() {
       <UseEffect />
       <ScrollToSection />
       <FileUpload />
+      <CartBilling />
       
     </>
   )
